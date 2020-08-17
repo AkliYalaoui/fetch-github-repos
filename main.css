@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:cursive,sans-serif;
+}
+.github{
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+.github form{
+  display:flex;
+}
+.github form input[type="text"]{
+  border: none;
+  padding: 15px;
+  flex: 4;
+}
+.github form input[type="text"]:focus{
+  outline: 2px solid #f44336
+}
+.github form input[type="submit"]{
+  border: none;
+  flex: 1;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+}
+.github-repos {
+  margin-top: 30px;
+}
+.no-data{
+  text-align: center;
+  background-color: #FFF;
+  padding: 10px;
+}
+.github-repos .repo {
+  padding: 15px;
+  margin: 15px 0;
+  display:flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+.github-repos .repo > span{
+    border-bottom: 1px solid #ff4081;
+    padding-bottom: 5px;
+}
+.github-repos .repo .actions span{
+  background-color: #00695c;
+  padding: 6px 10px;
+  margin-right: 10px;
+  color:#fff;
+}
+.github-repos .repo a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #2979ff;
+  padding: 6px 10px;
+}
